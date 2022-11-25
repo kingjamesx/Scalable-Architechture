@@ -13,6 +13,7 @@ function App() {
   };
   return (
     <div>
+      <p>this is a test</p>
       <h1>Team 2 Frontend App</h1>
       <h1>{value}</h1>
       <div>
