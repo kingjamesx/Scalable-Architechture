@@ -5,14 +5,20 @@ function App() {
   const handleIncrement = () => {
     setValue(value + 1);
   };
+  const handleDecrement = () => {
+    setValue(value - 1);
+  };
+  const handleReset = () => {
+    setValue(0);
+  };
   return (
     <div>
       <h1>Team 2 Frontend App</h1>
       <h1>{value}</h1>
       <div>
         <button onClick={handleIncrement}>increase</button>
-        <button>Decrease</button>
-        <button> Reset</button>
+        <button onClick={handleDecrement}>Decrease</button>
+        <button onClick={handleReset}> Reset</button>
       </div>
     </div>
   );
