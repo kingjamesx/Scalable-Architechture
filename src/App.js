@@ -1,5 +1,5 @@
-import './App.css';
 import { useState } from 'react';
+import './App.css';
 function App() {
   const [value, setValue] = useState(0);
   const handleIncrement = () => {
@@ -12,7 +12,7 @@ function App() {
       <div>
         <button onClick={handleIncrement}>increase</button>
         <button>Decrease</button>
-        <button>Reset</button>
+        <button> Reset</button>
       </div>
     </div>
   );
